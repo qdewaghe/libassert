@@ -18,5 +18,5 @@ cmake -S cmake_client -B cmake_client/build_static -DCMAKE_PREFIX_PATH=../instal
 cmake --build cmake_client/build_shared
 cmake --build cmake_client/build_static
 
-LD_LIBRARY_PATH="" ./cmake_client/build_shared/main
-LD_LIBRARY_PATH="" ./cmake_client/build_static/main
+./cmake_client/build_shared/main
+./cmake_client/build_static/main
